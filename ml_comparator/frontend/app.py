@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import streamlit as st
 
-from .components.result_section import render_results
-from .components.selection_section import render_selection
-from .components.upload_section import render_upload
+from ml_comparator.frontend.components.result_section import render_results
+from ml_comparator.frontend.components.selection_section import render_selection
+from ml_comparator.frontend.components.upload_section import render_upload
 
 
 st.set_page_config(page_title="ML Classification Comparator", layout="wide")
