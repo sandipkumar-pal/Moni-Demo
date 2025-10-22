@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.env.local
+*.pyo
+*.pyd
+*.sqlite3
+ml_comparator/data/uploads/*
+ml_comparator/data/temp/*
+!ml_comparator/data/uploads/.gitkeep
+!ml_comparator/data/temp/.gitkeep
+.DS_Store
+.idea/
+.vscode/

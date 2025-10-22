@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pandas
+numpy
+scikit-learn
+xgboost
+streamlit
+matplotlib
+seaborn
+plotly
+requests
+openpyxl
+xlrd
