@@ -61,7 +61,9 @@ In a new terminal session:
 streamlit run ml_comparator/frontend/app.py
 ```
 
-The Streamlit app defaults to the backend at `http://localhost:8000`. Update the sidebar field if you host the API elsewhere.
+The app automatically configures its import path so you can run it from the project root or
+with an absolute path to `app.py`. The Streamlit app defaults to the backend at
+`http://localhost:8000`. Update the sidebar field if you host the API elsewhere.
 
 ### Docker
 
