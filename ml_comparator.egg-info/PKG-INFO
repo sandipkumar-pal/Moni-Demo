@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: ml_comparator
+Version: 0.1.0
+Summary: A Streamlit + FastAPI app for comparing machine learning classifiers
+Author: Sandip Pal
+Author-email: sandipkumar.pal@spglobal.com
+Requires-Python: >=3.9
+Requires-Dist: streamlit>=1.25.0
+Requires-Dist: fastapi>=0.95.0
+Requires-Dist: uvicorn>=0.22.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: scikit-learn>=1.2.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: plotly>=5.15.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
