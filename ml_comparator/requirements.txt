@@ -11,3 +11,4 @@ seaborn
 plotly
 requests
 openpyxl
+xlrd

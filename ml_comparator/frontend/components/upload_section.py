@@ -19,7 +19,11 @@ def render_upload(api_url: str) -> None:
             key="dataset_file",
             help="The uploaded data remains on this machine and is never shared.",
         )
-        submitted = st.form_submit_button("Upload & Analyze", disabled=uploaded_file is None)
+        submitted = st.form_submit_button("Upload & Analyze", type="primary")
+
+    if submitted and uploaded_file is None:
+        st.warning("Please select a dataset file before uploading.")
+        return
 
     if submitted and uploaded_file is not None:
         files = {

@@ -47,6 +47,9 @@ source .venv/bin/activate
 pip install -r ml_comparator/requirements.txt
 ```
 
+The dependency set includes `openpyxl` for modern Excel files and `xlrd` to support legacy `.xls`
+workbooks.
+
 ### Run the backend
 
 ```bash
